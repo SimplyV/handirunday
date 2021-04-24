@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+    <html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/jpg" href="assets/img/logo2.jpg" />
+    <link rel="stylesheet" href="assets/css/infos.css">
+
+    <meta property="og:site_name" content="ASBL CHRISAL EVENTS" class="next-head" />
+	<meta property="og:title" content="Bienvenue sur ASBL CHRISAL EVENTS !" class="next-head" />
+	<meta property="og:description" content="Organisation d'événements sportifs - jogging plus particulièrement pour personnes porteuses d'un handicap" class="next-head" />
+	<meta property="og:type" content="website" class="next-head" />
+    <meta property="og:image" content="public/img/logo2.jpg" class="next-head" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>    
+    <script src="https://kit.fontawesome.com/e8904bdefc.js"></script>
+
+    <title> ASBL CHRISAL EVENTS - Infos pratiques </title>
+</head>
+    <body>
+
+        <div class="top-nav">
+            <div class="top-nav-contact">
+                <div class="top-nav-contact-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <h2>+32496289855</h2>
+                </div>
+                <div class="top-nav-contact-mail">
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto:chrisalevents@outlook.be">chrisalevents@outlook.be</a>
+                </div>
+            </div>
+            <div class="top-nav-sm">
+                <a href="https://www.facebook.com/chrisaleventsasbl" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/chrisalevents/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="navigation-container">
+            <div class="navigation">
+                <div class="navigation-brand">
+                    <img src="assets/img/logo2.jpg" alt="logo asbl">
+                </div>
+                <div class="navigation-links">
+                    <a class="classic-a" href="index.html"> Acceuil </a>
+                    <a class="classic-a" href="index.html#association"> L'association </a>
+                    <a class="classic-a" href="handirunday.html"> Handirunday </a>
+                    <a class="classic-a" href="infos.html"> Infos </a>
+                    <a href="contact.html"><button class="nav-links-contact"> Contactez-nous </button></a>
+                </div>
+                <div class="navigation-mb-menu">
+                    <button class="mb-menu-btn" onclick="mbMenu()"><i class="fas fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation-mobile-container" id="mb-links">
+            <div class="navigation-mobile">
+                <a href="index.html"> Acceuil </a>
+                <a href="index.html#association"> L'association </a>
+                <a href="handirunday.html"> Handirunday </a>
+                <a href="contact.html">Contactez-nous </a>
+                <a href="infos.html"> Infos </a>
+            </div>
+        </div>
+
+        <div class="header-container">
+            <div class="header">
+                <h1> HANDIRUNDAY </h1>
+                <p> Bienvenue sur la page infos pratiques !</p>
+                <p> Vous retrouverez ici toutes les informations qui vous permettront de tout</p>
+                <p> connaître sur l'événement !</p>
+            </div>
+        </div>
+
+        <div class="informations-container">
+            <div class="when-block">
+                <i class="far fa-calendar-minus"></i>
+                <h1> Quand ? </h1>
+                <div class="info-countdown" id="countdown2"> 
+                    <span class="days2 span-countdown"> - </span>
+                    <div class=""> J </div>
+                    <span class="hours2 span-countdown"> - </span>
+                    <div class=""> H </div>
+                    <span class="minutes2 span-countdown"> - </span>
+                    <div class=""> Min </div>
+                    <span class="seconds2 span-countdown"> - </span>
+                    <div class=""> s </div>
+                </div>
+                <h2> avant le départ </h2>
+            </div>
+            <div class="where-block">
+                <i class="fas fa-map-marker-alt"></i>
+                <h1> Où ?</h1>
+                <h2> CHU VESALE - LÉONARD DE VINCI</h2>
+                <h2> MONTIGNY-LE-TILLEUL</h2>
+            </div>
+            <div class="contact-block">
+                <i class="fas fa-pencil-alt"></i>
+                <h1> Contact ?</h1>
+                <a href="mailto:chrisalevents@outlook.be">chrisalevents@outlook.be</a>
+                <h2> +32496289855 </h2>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <div class="main-container-container">
+                <div class="main-container-menu nav-container-navigation">
+                    <a href="#tab-1"> Le programme </a>
+                    <a href="#tab-2"> Tarifs </a>
+                    <a href="#tab-3"> S'inscrire </a>
+                    <a href="#tab-4"> Réglement </a>
+                    <a href="#tab-5"> Circuits </a>
+                    <a href="#tab-6"> Avantages </a>
+                    <a href="#tab-7"> Le lieu </a>
+                    <a href="#tab-8"> Après l'effort </a>
+                    <a href="#tab-9"> Photos  </a>
+                </div>
+                <div class="main-container-mb">
+                    <button onclick="contMenu()" class="mb-cont-menu-btn"><i class="fas fa-bars"></i></button>
+                </div>    
+            </div>
+           
+        </div>
+
+        <div class="mb-cont-menu nav-container-navigation" id="mb-cont-menu">
+            <div class="mb-cont-menu-cont">
+                <a href="#tab-1"> Le programme </a>
+                <a href="#tab-2"> Tarifs </a>
+                <a href="#tab-3"> S'inscrire </a>
+                <a href="#tab-4"> Réglement </a>
+                <a href="#tab-5"> Circuits </a>
+                <a href="#tab-6"> Avantages </a>
+                <a href="#tab-7"> Le lieu </a>
+                <a href="#tab-8"> Après l'effort </a>
+                <a href="#tab-9"> Photos </a>
+            </div> 
+        </div>
+        <div class="nav-display">
+            <div class="s b1" id="tab-1">
+                <table>
+                    <tr>
+                        <td style="background: #DADADA;"> Heure de départ </td>
+                        <td style="background: #DADADA;"> Distance </td>
+                    </tr>
+                    <tr>
+                        <td> 09h15</td>
+                        <td> 400M  </td>
+                    </tr>
+                    <tr>
+                        <td> 09h30 </td>
+                        <td> 800m </td>
+                    </tr>
+                    <tr>
+                        <td> 10H00 </td>
+                        <td> LDDV ( Handibike ) </td>
+                    </tr>
+                    <tr>
+                        <td> 11h00 </td>
+                        <td> 5 et 10km </td>
+                    </tr>
+                    <tr>
+                        <td> 12h45 </td>
+                        <td> 10km relais </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="s b2" id="tab-2">
+                <table>
+                    <thead>
+                        <th colspan="8" style="background: #DADADA;"> En pré-inscription</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 400m </td>
+                            <td> 800m </td>
+                            <td> Handibike </td>
+                            <td> 5km </td>
+                            <td> 5km porté</td>
+                            <td> 10km </td>
+                            <td> 10km porté</td>
+                            <td> Relais </br>( Groupes de 4 coureurs)</td>
+                        </tr>
+                        <tr>
+                            <td>  </td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td> Participant </td>
+                            <td> Participant  </td>
+                            <td> Participant </td>
+                            <td> Participant  </td>
+                            <td> Participant </td>
+                        </tr>
+                        <tr>
+                            <td> Gratuit </td>
+                            <td> Gratuit </td>
+                            <td> 10€(*) </td>
+                            <td> 10€(*) </td>
+                            <td> 10€(*) </td>
+                            <td> 10€(*)</td>
+                            <td> 10€(*) </td>
+                            <td> 10€(*)</td>
+                        </tr>
+                        <tr>
+                            <td>  </td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td> Accompagnant </td>
+                            <td> Accompagnant </td>
+                            <td> Accompagnant </td>
+                            <td> Accompagnant </td>
+                            <td> Accompagnants </td>
+                        </tr>
+                        <tr>
+                            <td>  </td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td> 5€(*) </td>
+                            <td> 10€(*) </td>
+                            <td> 5€(*) </td>
+                            <td> 10€(*) </td>
+                            <td> 20€(*)</td>
+                        </tr>
+                            <tr>
+                                <th colspan="8" style="background: #DADADA;"> (*)+ frais de dossier = 0.50cent par tranche de 10€ </th>
+                            </tr>
+                            
+                            <th colspan="8" style="background: #DADADA;"> Sur place </th>
+                        <tr>
+                            <td> 400m </td>
+                            <td> 800m </td>
+                            <td> Handibike </td>
+                            <td> 5km </td>
+                            <td> 5km porté </td>
+                            <td> 10km </td>
+                            <td> 10km porté</td>
+                            <td> Relais </br>( Groupes de 4 coureurs)</td>
+                        </tr>
+                        <tr>
+                            <td>  </td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td> Participant </td>
+                            <td> Participant  </td>
+                            <td> Participant </td>
+                            <td> Participant  </td>
+                            <td> Participant </td>
+                        </tr>
+                        <tr>
+                            <td> Gratuit </td>
+                            <td> Gratuit </td>
+                            <td> 12€ </td>
+                            <td> 12€ </td>
+                            <td> 12€ </td>
+                            <td> 12€</td>
+                            <td> 12€ </td>
+                            <td> 12€</td>
+                        </tr>
+                        <tr>
+                            <td>  </td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td> Accompagnants </td>
+                            <td> Accompagnants </td>
+                            <td> Accompagnants </td>
+                            <td> Accompagnants </td>
+                            <td> Accompagnants </td>
+                        </tr>
+                        <tr>
+                            <td>  </td>
+                            <td>  </td>
+                            <td>  </td>
+                            <td> 6€ </td>
+                            <td> 12€ </td>
+                            <td> 6€ </td>
+                            <td> 12€ </td>
+                            <td> 25€</td>
+                        </tr>
+                    
+                        <tr>
+                            <td colspan="8" style="background: #DADADA;">Tous les participants reçoivent un t-shirt sauf ceux inscrits sur le 400m et 800m.</br> Les accompagnants peuvent acheter le t-shirt pour la somme de 10€. </td>
+                        </tr>
+
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="s b3" id="tab-3">
+                <h2> Vous voulez vous inscrire en tant que participant ou en tant qu’accompagnant ?</h2>
+                <h2> Suivez ce lien dès l’ouverture des inscriptions :  </h2>
+                <a href="https://www.goaltiming.be/courses/df3c5540-7f4b-11eb-8771-3b4d13ee0a57" target="_blank">https://www.goaltiming.be/courses/df3c5540-7f4b-11eb-8771-3b4d13ee0a57</a>
+                <img src="assets/img/NEW LOGO GOALTIMING NEW.jpg" alt="logo goaltime">
+            </div>
+            <div class="s b4" id="tab-4">
+                <h1> Réglement </h1>
+                <i class="far fa-file-alt"></i>
+                <a href="assets/files/HANDIRUNDAY- REGLEMENT DE LA COURSE (1).pdf"><button class="rule-btn">Réglement de la course</button></a>
+            </div>
+            <div class="s b5" id="tab-5">
+                <div class="start-loop">
+                    <div class="start-loop-info">
+                        <h1> Boucle du circuit</h1>
+                        <span> Handibike </span>
+                        <span> 5km</span>
+                        <span> 10km </span>
+                        <span> Relais </span>
+                    </div>
+                    <div class="start-loop-download">
+                        <a href="assets/files/BOUCLES - COURSES.pdf"><button class="pdf-download"><i class="far fa-file-pdf"></i> PDF</button></a>
+                        <a href="assets/files/boucle.m4v"><button class="avi-download"><i class="far fa-file-video"></i> AVI</button></a>
+                    </div>
+                </div>
+                <div class="final-loop">
+                    <div class="final-loop-info">
+                        <h1> Boucle finale du circuit</h1>
+                        <span> 5km</span>
+                        <span> 10km </span>
+                        <span> Relais </span>
+                    </div>
+                    <div class="final-loop-download">
+                        <a href="assets/files/BOUCLE  FINALE.pdf"><button class="pdf-download"><i class="far fa-file-pdf"></i> PDF</button></a>
+                        <a href="assets/files/boucle finale.avi"><button class="avi-download"><i class="far fa-file-video"></i> AVI</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="s b6" id="tab-6">
+                <h1> Pack à l'arrivée</h1>
+                <h1> Médaille </h1>
+                <h1> T-shirt à chaque participant en situation de handicap  </h1>
+                <h1>( sauf pour les 400 et 800m )</h1>
+                <a href="assets/img/t-shirt (2).jpg" target="_blank"><button class="show-btn">Cliquez moi !</button></a>
+            </div>
+            <div class="s b7" id="tab-7">
+                <h1>L'entrée HANDIRUNDAY - <a href="first-ext.html" target="_blank"> Cliquez ici </a></h1>
+                <h1>Les parkings  - <a href="second-ext.html" target="_blank"> Cliquez ici </a></h1>
+                <h1>Le lieu d'arrivée et des festivités - <a href="third-ext.html" target="_blank"> Cliquez ici </a></h1>
+            </div>
+            <div class="s b8" id="tab-8">
+                <div class="first-food">
+                    <a href="https://www.facebook.com/P%C3%A2teso-124525151479628/" target="_blank"><button class="title-btn"> Pâtes'o</button></a>
+                    <div class="fb-page" data-href="https://www.facebook.com/P%C3%A2teso-124525151479628/" data-tabs="timeline" data-width="" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/P%C3%A2teso-124525151479628/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/P%C3%A2teso-124525151479628/">Pâtes&#039;o</a></blockquote></div> 
+                </div>
+                <div class="second-food">
+                    <a href="https://www.facebook.com/lesglacesdelodie/"target="_blank"><button class="title-btn"> Les glaces d'Élodie</button></a>
+                    <div class="fb-page" data-href="https://www.facebook.com/lesglacesdelodie/" data-tabs="timeline" data-width="" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/lesglacesdelodie/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lesglacesdelodie/">Les glaces d’Elodie</a></blockquote></div>
+                </div>
+                <div class="third-food">
+                    <a href="https://www.facebook.com/lesglacesdelodie/" target="_blank"><button class="title-btn"> L'Orignal Foodtruck </button></a>
+                    <div class="fb-page" data-href="https://www.facebook.com/lorignalfoodtruck/" data-tabs="timeline" data-width="" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/lorignalfoodtruck/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lorignalfoodtruck/">L&#039;Orignal Foodtruck</a></blockquote></div>
+                </div>
+            </div>
+            <div class="s b9" id="tab-9">
+                
+            </div>
+        </div>
+
+
+        <footer>
+            <h1> ASBL CHRISAL EVENTS.</h1>
+            <h2 class="footer-h2">© 2021 - Tout droits reservés</h2>
+        </footer>
+
+
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v10.0" nonce="oLGCvKYj"></script>
+
+        <script src="assets/js/index.js"></script>
+        <script>
+
+  function getTimeRemaining2(endtime2){
+    var t2 = Date.parse(endtime2) - Date.parse(new Date());
+    var seconds2 = Math.floor( (t2/1000) % 60 );
+    var minutes2 = Math.floor( (t2/1000/60) % 60 );
+    var hours2 = Math.floor( (t2/(1000*60*60)) % 24 );
+    var days2 = Math.floor( t2/(1000*60*60*24) );
+    return {
+      'total2': t2,
+      'days2': days2,
+      'hours2': hours2,
+      'minutes2': minutes2,
+      'seconds2': seconds2
+    };
+  }
+  
+  function initializeClock2(id2, endtime2){
+    var clock2 = document.getElementById(id2);
+    var daysSpan2 = clock2.querySelector('.days2');
+    var hoursSpan2 = clock2.querySelector('.hours2');
+    var minutesSpan2 = clock2.querySelector('.minutes2');
+    var secondsSpan2 = clock2.querySelector('.seconds2');
+  
+    function updateClock2(){
+      var t2 = getTimeRemaining2(endtime2);
+      daysSpan2.innerHTML = t2.days2;
+      hoursSpan2.innerHTML = ('0' + t2.hours2).slice(-2);
+      minutesSpan2.innerHTML = ('0' + t2.minutes2).slice(-2);
+      secondsSpan2.innerHTML = ('0' + t2.seconds2).slice(-2);
+  
+      if(t2.total<=0){
+        clearInterval(timeinterval2);
+      }
+    }
+  
+    updateClock2();
+    var timeinterval2 = setInterval(updateClock2,1000);
+  }
+
+  var deadline2 = 'September 5 2021 00:00:00 UTC';
+  initializeClock2('countdown2', deadline2);
+
+        </script>
+    </body>
+</html>
