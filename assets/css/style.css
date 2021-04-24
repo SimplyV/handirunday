@@ -417,6 +417,7 @@ footer h1, .footer-h2{
         margin-right: 0px;
     }
     .second-main-actor{
+        margin-top: -60px;
         width: 80%;
         height: 300px;
         border-radius: 10px;
